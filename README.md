@@ -2,7 +2,7 @@
 
 A backend AI service for a cricket umoiring rules assistant
 
-This project uses a Retreival-Augmented Generation (RAG) pipeline to answer league-specific umpiring questions from a PDF rulebook. The current implementation loads a pdf documents, splits it into checnks, generates embeddings for each chunk, stores them in a Chroma vector database, and exposes an API endpoint to answer questions using stored knowledge base.
+This project uses a Retreival-Augmented Generation (RAG) pipeline to answer league-specific umpiring questions from a PDF rulebook. The current implementation loads a pdf documents, splits it into chunks, generates embeddings for each chunk, stores them in a Chroma vector database, and exposes an API endpoint to answer questions using stored knowledge base.
 
 ## Features
 
